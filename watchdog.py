@@ -92,4 +92,5 @@ if __name__ != '__main__':
     ma_monitor_stop()
     ''')
 
-    
+import code
+code.interact(banner = "", local = locals())   
