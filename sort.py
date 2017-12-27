@@ -78,4 +78,6 @@ def sort_ma_list(listname='share_list', days=10):
 if __name__ != '__main__':
     print('成功导入sort！')
 
-    
+import code
+code.interact(banner = "", local = locals())
+
