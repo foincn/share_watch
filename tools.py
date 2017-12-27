@@ -107,6 +107,6 @@ def ma_hist(stock_code, days=10, debug=0):
                 ma10.append(float(ma[-l-1][9]))
     return(ma5, ma10)
 
-if __name__ == '__main__':
+if __name__ != '__main__':
     print('成功导入tools！')
 
