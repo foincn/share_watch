@@ -110,3 +110,6 @@ def ma_hist(stock_code, days=10, debug=0):
 if __name__ != '__main__':
     print('成功导入tools！')
 
+import code
+code.interact(banner = "", local = locals())
+
