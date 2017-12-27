@@ -211,5 +211,8 @@ def get_szcy_list(listname='share_list'):
     print('从 深圳创业板 成功导入%s %s支股票。' % (listname, len(li)))
 
 
-get_list()
+#get_list()
+
+import code
+code.interact(banner = "", local = locals())
 
