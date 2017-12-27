@@ -75,7 +75,7 @@ def sort_ma_list(listname='share_list', days=10):
     print('已经从 %s 移除 %s 支股票，列表中还剩 %s' % (listname, a-b, b))
 
 
-if __name__ == '__main__':
+if __name__ != '__main__':
     print('成功导入sort！')
 
     
